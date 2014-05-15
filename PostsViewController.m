@@ -9,6 +9,8 @@
 #import "PostsViewController.h"
 #import "PostTableViewCell.h"
 #import "Post.h"
+#import "PostsDetailViewController.h"
+#import "UIColor+RandomColor.h"
 
 @interface PostsViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -23,6 +25,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -135,6 +139,13 @@
     self.posts = theListOfPosts;
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    self.view.backgroundColor = [UIColor randomColor];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -197,6 +208,15 @@
     }
 }
 
+- (IBAction)goBack:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+//{
+//    
+//}
 //  - (IBAction)unwindToPostsViewController:(UIStoryboardSegue *)unwindSegue
 
 

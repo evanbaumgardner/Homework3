@@ -19,6 +19,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="121" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="UXP-iB-Snw">
                                 <rect key="frame" x="0.0" y="104" width="320" height="452"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="sectionIndexBackgroundColor" red="1" green="0.86881822460000002" blue="0.51304178099999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="postCell" rowHeight="121" id="KlP-lr-cJo" customClass="PostTableViewCell">
                                         <rect key="frame" x="0.0" y="22" width="320" height="121"/>
@@ -103,7 +104,7 @@
         <scene sceneID="Vke-VP-Xio">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hIj-vK-tSy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="7cg-a6-0WP" userLabel="Detail View Controller" sceneMemberID="viewController">
+                <viewController id="7cg-a6-0WP" userLabel="Detail View Controller" customClass="PostsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gh2-uH-ep0"/>
                         <viewControllerLayoutGuide type="bottom" id="egh-F3-DbD"/>
@@ -117,18 +118,29 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rocketscienceFINAL.png" translatesAutoresizingMaskIntoConstraints="NO" id="37m-NI-CjB">
-                                        <rect key="frame" x="-7" y="72" width="327" height="416"/>
+                                        <rect key="frame" x="-3" y="123" width="327" height="234"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycx-gd-9Z3">
+                                        <rect key="frame" x="107" y="44" width="106" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="goBack:" destination="7cg-a6-0WP" eventType="touchUpInside" id="hT2-K8-3I1"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="739" y="607"/>
+            <point key="canvasLocation" x="1019" y="495"/>
         </scene>
         <!--Posts Detail View Controller - Add Post-->
         <scene sceneID="RQM-jz-dFg">
@@ -138,6 +150,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AddPost" id="5UZ-Yw-p3d">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>

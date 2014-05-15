@@ -25,6 +25,7 @@
 		35CCC90319255DD8004800E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CCC90219255DD8004800E5 /* Main.storyboard */; };
 		35CCC90519255F95004800E5 /* rocketscienceFINAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CCC90419255F95004800E5 /* rocketscienceFINAL.png */; };
 		35CCC908192562E5004800E5 /* PostsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCC907192562E5004800E5 /* PostsDetailViewController.m */; };
+		35CCC90B192580DF004800E5 /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCC90A192580DF004800E5 /* UIColor+RandomColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		35CCC90419255F95004800E5 /* rocketscienceFINAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocketscienceFINAL.png; sourceTree = "<group>"; };
 		35CCC906192562E5004800E5 /* PostsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsDetailViewController.h; sourceTree = "<group>"; };
 		35CCC907192562E5004800E5 /* PostsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsDetailViewController.m; sourceTree = "<group>"; };
+		35CCC909192580DF004800E5 /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		35CCC90A192580DF004800E5 /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +191,8 @@
 			children = (
 				35CCC8FF19255D73004800E5 /* PostsViewController.h */,
 				35CCC90019255D73004800E5 /* PostsViewController.m */,
+				35CCC909192580DF004800E5 /* UIColor+RandomColor.h */,
+				35CCC90A192580DF004800E5 /* UIColor+RandomColor.m */,
 				35CCC906192562E5004800E5 /* PostsDetailViewController.h */,
 				35CCC907192562E5004800E5 /* PostsDetailViewController.m */,
 			);
@@ -296,6 +301,7 @@
 				35CCC8C919255AB7004800E5 /* main.m in Sources */,
 				35CCC8F919255C6B004800E5 /* Post.m in Sources */,
 				35CCC90119255D73004800E5 /* PostsViewController.m in Sources */,
+				35CCC90B192580DF004800E5 /* UIColor+RandomColor.m in Sources */,
 				35CCC8FC19255CBB004800E5 /* PostTableViewCell.m in Sources */,
 				35CCC908192562E5004800E5 /* PostsDetailViewController.m in Sources */,
 			);
