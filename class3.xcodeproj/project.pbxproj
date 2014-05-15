@@ -13,14 +13,18 @@
 		35CCC8C719255AB7004800E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35CCC8C519255AB7004800E5 /* InfoPlist.strings */; };
 		35CCC8C919255AB7004800E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCC8C819255AB7004800E5 /* main.m */; };
 		35CCC8CD19255AB7004800E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCC8CC19255AB7004800E5 /* AppDelegate.m */; };
-		35CCC8D019255AB7004800E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CCC8CE19255AB7004800E5 /* Main.storyboard */; };
-		35CCC8D319255AB7004800E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCC8D219255AB7004800E5 /* ViewController.m */; };
 		35CCC8D519255AB7004800E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CCC8D419255AB7004800E5 /* Images.xcassets */; };
 		35CCC8DC19255AB7004800E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CCC8DB19255AB7004800E5 /* XCTest.framework */; };
 		35CCC8DD19255AB7004800E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CCC8BC19255AB7004800E5 /* Foundation.framework */; };
 		35CCC8DE19255AB7004800E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CCC8C019255AB7004800E5 /* UIKit.framework */; };
 		35CCC8E619255AB7004800E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35CCC8E419255AB7004800E5 /* InfoPlist.strings */; };
 		35CCC8E819255AB7004800E5 /* class3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCC8E719255AB7004800E5 /* class3Tests.m */; };
+		35CCC8F919255C6B004800E5 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCC8F819255C6B004800E5 /* Post.m */; };
+		35CCC8FC19255CBB004800E5 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCC8FB19255CBB004800E5 /* PostTableViewCell.m */; };
+		35CCC90119255D73004800E5 /* PostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCC90019255D73004800E5 /* PostsViewController.m */; };
+		35CCC90319255DD8004800E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CCC90219255DD8004800E5 /* Main.storyboard */; };
+		35CCC90519255F95004800E5 /* rocketscienceFINAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CCC90419255F95004800E5 /* rocketscienceFINAL.png */; };
+		35CCC908192562E5004800E5 /* PostsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCC907192562E5004800E5 /* PostsDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +48,22 @@
 		35CCC8CA19255AB7004800E5 /* class3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "class3-Prefix.pch"; sourceTree = "<group>"; };
 		35CCC8CB19255AB7004800E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35CCC8CC19255AB7004800E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35CCC8CF19255AB7004800E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		35CCC8D119255AB7004800E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35CCC8D219255AB7004800E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		35CCC8D419255AB7004800E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		35CCC8DA19255AB7004800E5 /* class3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = class3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CCC8DB19255AB7004800E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		35CCC8E319255AB7004800E5 /* class3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "class3Tests-Info.plist"; sourceTree = "<group>"; };
 		35CCC8E519255AB7004800E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35CCC8E719255AB7004800E5 /* class3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = class3Tests.m; sourceTree = "<group>"; };
+		35CCC8F719255C6A004800E5 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		35CCC8F819255C6B004800E5 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		35CCC8FA19255CBB004800E5 /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		35CCC8FB19255CBB004800E5 /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+		35CCC8FF19255D73004800E5 /* PostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsViewController.h; sourceTree = "<group>"; };
+		35CCC90019255D73004800E5 /* PostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsViewController.m; sourceTree = "<group>"; };
+		35CCC90219255DD8004800E5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		35CCC90419255F95004800E5 /* rocketscienceFINAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocketscienceFINAL.png; sourceTree = "<group>"; };
+		35CCC906192562E5004800E5 /* PostsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsDetailViewController.h; sourceTree = "<group>"; };
+		35CCC907192562E5004800E5 /* PostsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +93,9 @@
 		35CCC8B019255AB7004800E5 = {
 			isa = PBXGroup;
 			children = (
+				35CCC8F119255ACA004800E5 /* models */,
+				35CCC8F219255AD4004800E5 /* views */,
+				35CCC8F319255AE9004800E5 /* controllers */,
 				35CCC8C219255AB7004800E5 /* class3 */,
 				35CCC8E119255AB7004800E5 /* class3Tests */,
 				35CCC8BB19255AB7004800E5 /* Frameworks */,
@@ -114,9 +128,6 @@
 			children = (
 				35CCC8CB19255AB7004800E5 /* AppDelegate.h */,
 				35CCC8CC19255AB7004800E5 /* AppDelegate.m */,
-				35CCC8CE19255AB7004800E5 /* Main.storyboard */,
-				35CCC8D119255AB7004800E5 /* ViewController.h */,
-				35CCC8D219255AB7004800E5 /* ViewController.m */,
 				35CCC8D419255AB7004800E5 /* Images.xcassets */,
 				35CCC8C319255AB7004800E5 /* Supporting Files */,
 			);
@@ -126,6 +137,7 @@
 		35CCC8C319255AB7004800E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				35CCC90419255F95004800E5 /* rocketscienceFINAL.png */,
 				35CCC8C419255AB7004800E5 /* class3-Info.plist */,
 				35CCC8C519255AB7004800E5 /* InfoPlist.strings */,
 				35CCC8C819255AB7004800E5 /* main.m */,
@@ -150,6 +162,36 @@
 				35CCC8E419255AB7004800E5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35CCC8F119255ACA004800E5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				35CCC8F719255C6A004800E5 /* Post.h */,
+				35CCC8F819255C6B004800E5 /* Post.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		35CCC8F219255AD4004800E5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				35CCC90219255DD8004800E5 /* Main.storyboard */,
+				35CCC8FA19255CBB004800E5 /* PostTableViewCell.h */,
+				35CCC8FB19255CBB004800E5 /* PostTableViewCell.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		35CCC8F319255AE9004800E5 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35CCC8FF19255D73004800E5 /* PostsViewController.h */,
+				35CCC90019255D73004800E5 /* PostsViewController.m */,
+				35CCC906192562E5004800E5 /* PostsDetailViewController.h */,
+				35CCC907192562E5004800E5 /* PostsDetailViewController.m */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CCC90319255DD8004800E5 /* Main.storyboard in Resources */,
+				35CCC90519255F95004800E5 /* rocketscienceFINAL.png in Resources */,
 				35CCC8D519255AB7004800E5 /* Images.xcassets in Resources */,
 				35CCC8C719255AB7004800E5 /* InfoPlist.strings in Resources */,
-				35CCC8D019255AB7004800E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35CCC8D319255AB7004800E5 /* ViewController.m in Sources */,
 				35CCC8CD19255AB7004800E5 /* AppDelegate.m in Sources */,
 				35CCC8C919255AB7004800E5 /* main.m in Sources */,
+				35CCC8F919255C6B004800E5 /* Post.m in Sources */,
+				35CCC90119255D73004800E5 /* PostsViewController.m in Sources */,
+				35CCC8FC19255CBB004800E5 /* PostTableViewCell.m in Sources */,
+				35CCC908192562E5004800E5 /* PostsDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +326,6 @@
 				35CCC8C619255AB7004800E5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		35CCC8CE19255AB7004800E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35CCC8CF19255AB7004800E5 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		35CCC8E419255AB7004800E5 /* InfoPlist.strings */ = {
