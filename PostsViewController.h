@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "PostsDetailViewController.h"
 
-//@interface PostsDetailViewController : UITableViewController <em>id<PostsDetailViewControllerDelegate></em>
-
+//@interface PostsDetailViewController : UITableViewController<PostsDetailViewControllerDelegate>
+//@property  (nonatomic, strong) NSMutableArray *theListOfPosts;
 @interface PostsViewController : UIViewController
+
+
+//- (IBAction)cancel:(id)sender;
+//- (IBAction)done:(id)sender;
+
 @end
