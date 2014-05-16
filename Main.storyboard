@@ -77,7 +77,7 @@
                                 <rect key="frame" x="0.0" y="26" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Oh God WHy" id="vqZ-G3-72r">
+                                    <navigationItem title="YAAAAH!" id="vqZ-G3-72r">
                                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="xy5-nc-CE7">
                                             <connections>
                                                 <segue destination="Ncg-v0-gjV" kind="modal" identifier="AddPost" modalTransitionStyle="flipHorizontal" id="1bn-bS-Ifu"/>
@@ -103,7 +103,6 @@
         <!--Detail View Controller-->
         <scene sceneID="Vke-VP-Xio">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hIj-vK-tSy" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="7cg-a6-0WP" userLabel="Detail View Controller" customClass="PostsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gh2-uH-ep0"/>
@@ -139,6 +138,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hIj-vK-tSy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1019" y="495"/>
         </scene>

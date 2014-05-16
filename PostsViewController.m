@@ -12,7 +12,7 @@
 #import "PostsDetailViewController.h"
 #import "UIColor+RandomColor.h"
 
-@interface PostsViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface PostsViewController () <UITableViewDataSource, UITableViewDelegate, PostsDetailViewControllerDelegate>
 
 @property IBOutlet UITableView *tableView;
 @property NSArray *posts;
@@ -20,8 +20,16 @@
 @end
 
 @implementation PostsViewController
+- (void)postDetailViewControllerDidCancel:(PostsDetailViewController *)controller
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+}
 
-
+- (void)postDetailViewControllerDidSave:(PostsDetailViewController *)controller
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -204,7 +212,7 @@
         UINavigationController *navigationController = segue.destinationViewController;
         PostsDetailViewController *postsDetailViewController = [navigationController viewControllers]
         [0];
-        postsDetailViewController.delegate.self;
+        postsDetailViewController.delegate=self;
     }
 }
 
