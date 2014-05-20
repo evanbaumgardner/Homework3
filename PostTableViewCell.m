@@ -7,6 +7,9 @@
 //
 
 #import "PostTableViewCell.h"
+#import "UIImage+ImageEffects.h"
+#import <AssetsLibrary/AssetsLibrary.h>
+
 
 @implementation PostTableViewCell
 

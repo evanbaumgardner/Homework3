@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35B477F7192BF20C003CBE4A /* CameraCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B477F6192BF20C003CBE4A /* CameraCapture.m */; };
+		35B47807192BFF9A003CBE4A /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B47806192BFF9A003CBE4A /* UIImage+ImageEffects.m */; };
 		35CCC8BD19255AB7004800E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CCC8BC19255AB7004800E5 /* Foundation.framework */; };
 		35CCC8BF19255AB7004800E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CCC8BE19255AB7004800E5 /* CoreGraphics.framework */; };
 		35CCC8C119255AB7004800E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CCC8C019255AB7004800E5 /* UIKit.framework */; };
@@ -39,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35B477F5192BF20C003CBE4A /* CameraCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraCapture.h; sourceTree = "<group>"; };
+		35B477F6192BF20C003CBE4A /* CameraCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraCapture.m; sourceTree = "<group>"; };
+		35B47805192BFF9A003CBE4A /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		35B47806192BFF9A003CBE4A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		35CCC8B919255AB7004800E5 /* class3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = class3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CCC8BC19255AB7004800E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35CCC8BE19255AB7004800E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -172,6 +178,8 @@
 			children = (
 				35CCC8F719255C6A004800E5 /* Post.h */,
 				35CCC8F819255C6B004800E5 /* Post.m */,
+				35B47805192BFF9A003CBE4A /* UIImage+ImageEffects.h */,
+				35B47806192BFF9A003CBE4A /* UIImage+ImageEffects.m */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -189,6 +197,8 @@
 		35CCC8F319255AE9004800E5 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				35B477F5192BF20C003CBE4A /* CameraCapture.h */,
+				35B477F6192BF20C003CBE4A /* CameraCapture.m */,
 				35CCC8FF19255D73004800E5 /* PostsViewController.h */,
 				35CCC90019255D73004800E5 /* PostsViewController.m */,
 				35CCC909192580DF004800E5 /* UIColor+RandomColor.h */,
@@ -302,8 +312,10 @@
 				35CCC8F919255C6B004800E5 /* Post.m in Sources */,
 				35CCC90119255D73004800E5 /* PostsViewController.m in Sources */,
 				35CCC90B192580DF004800E5 /* UIColor+RandomColor.m in Sources */,
+				35B47807192BFF9A003CBE4A /* UIImage+ImageEffects.m in Sources */,
 				35CCC8FC19255CBB004800E5 /* PostTableViewCell.m in Sources */,
 				35CCC908192562E5004800E5 /* PostsDetailViewController.m in Sources */,
+				35B477F7192BF20C003CBE4A /* CameraCapture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +512,7 @@
 				35CCC8ED19255AB7004800E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35CCC8EE19255AB7004800E5 /* Build configuration list for PBXNativeTarget "class3Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +521,7 @@
 				35CCC8F019255AB7004800E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

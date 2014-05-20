@@ -8,11 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "PostsDetailViewController.h"
+#import "UIImage+ImageEffects.h"
+#import <AssetsLibrary/AssetsLibrary.h>
+
 
 //@interface PostsDetailViewController : UITableViewController<PostsDetailViewControllerDelegate>
 //@property  (nonatomic, strong) NSMutableArray *theListOfPosts;
 @interface PostsViewController : UIViewController
 
+@end
+@interface CameraCapture : UIImagePickerController
 
 //- (IBAction)cancel:(id)sender;
 //- (IBAction)done:(id)sender;
