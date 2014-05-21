@@ -12,7 +12,7 @@
 #import "PostsDetailViewController.h"
 #import "UIColor+RandomColor.h"
 
-#import "CameraCapture.h"
+//#import "CameraCapture.h"
 
 @interface CameraCapture ()
 
@@ -32,7 +32,7 @@
     imagePicker.delegate = self;
     
     [self presentViewController:imagePicker animated:YES completion:^{
-        NSLog(@"Showing Image Picker");
+        
     }];
 }
 
@@ -40,7 +40,7 @@
 didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     [picker dismissViewControllerAnimated:YES completion:^{
-        NSLog(@"picker did complete");
+    
         _imageView.image = [info objectForKey:UIImagePickerControllerEditedImage];
         _imageView.layer.cornerRadius = _imageView.frame.size.width / 5.0;
         [_imageView setClipsToBounds:YES];
@@ -315,6 +315,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     // Pass the selected object to the new view controller.
 }
 */
+
 
 
 @end

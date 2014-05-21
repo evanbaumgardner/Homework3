@@ -89,6 +89,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="F10-3b-FXc"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
@@ -112,45 +113,73 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Jf-Jh-yOz">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VC5-KF-BUH">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    </imageView>
-                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KM1-Na-8XQ">
-                                        <rect key="frame" x="-7" y="436" width="335" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                        <items>
-                                            <barButtonItem systemItem="camera" id="jwB-sC-B5R">
-                                                <connections>
-                                                    <action selector="goBack:" destination="7cg-a6-0WP" id="itl-ck-7t3"/>
-                                                </connections>
-                                            </barButtonItem>
-                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="zGM-tV-SjS"/>
-                                            <barButtonItem systemItem="action" id="2lW-3Z-z6Z"/>
-                                        </items>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rocketscienceFINAL.png" translatesAutoresizingMaskIntoConstraints="NO" id="RZn-iR-NJc">
+                                <rect key="frame" x="30" y="60" width="261" height="328"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rkw-EN-UMI">
+                                <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Item" systemItem="done" id="a4q-0e-tp6">
                                         <connections>
-                                            <outlet property="delegate" destination="jwB-sC-B5R" id="xqA-GZ-KAe"/>
+                                            <action selector="goBack:" destination="7cg-a6-0WP" id="L9O-kp-Xq2"/>
                                         </connections>
-                                    </toolbar>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="WGJ-2B-hdt"/>
+                                    <barButtonItem systemItem="compose" id="Mvo-IN-2EG">
+                                        <connections>
+                                            <segue destination="k3q-5a-1zn" kind="modal" id="hq8-XC-SaA"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="view" destination="KM1-Na-8XQ" id="VFo-Fm-kXa"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hIj-vK-tSy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1019" y="495"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="21k-kb-lRQ">
+            <objects>
+                <viewController id="k3q-5a-1zn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eVd-dG-F3G"/>
+                        <viewControllerLayoutGuide type="bottom" id="QMA-mI-r7k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jpD-9o-7tK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="liK-ze-Ysw">
+                                <rect key="frame" x="-5" y="436" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="camera" id="2he-t7-lUc"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ztS-QT-Dkf"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bVa-xc-HVq"/>
+                                    <barButtonItem systemItem="action" id="OxO-it-hSd"/>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RR8-jV-kQi">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="view" destination="RR8-jV-kQi" id="QoL-oj-YV6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lyq-Jc-S1k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1497" y="140"/>
         </scene>
         <!--Posts Detail View Controller - Add Post-->
         <scene sceneID="RQM-jz-dFg">
@@ -261,9 +290,12 @@
             <point key="canvasLocation" x="653" y="-573"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="rocketscienceFINAL.png" width="720" height="969"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>
